@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primary-color{
+    
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-manu{
+    display: flex;
+}
+.nav-header ul li{
+    list-style-type: none;
+
+}
+
+.btn{
+    
+}
