@@ -1,24 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.primary-color{
-    
+    font-family: 'Open Sans', sans-serif;
 }
 
-.nav-header{
+/* shaires  */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
+
+}
+
+nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
-.nav-manu{
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul{
     display: flex;
+    align-items: center;
 }
-.nav-header ul li{
+
+nav li {
     list-style-type: none;
+    margin-right: 50px;
 
 }
 
-.btn{
-    
+nav a {
+    text-decoration: none;
+    color: #474747;
 }
+
+/* header related styal  */
+ 
