@@ -244,8 +244,56 @@ main section {
 .resume-container hr {
     margin: 30px;
 }
-.download{
+
+.download {
     text-align: center;
     padding: 20px 0;
-    
+
+}
+
+
+/* footer  */
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 100px;
+    margin-top: 100p;
+    gap: 100px;
+}
+
+.social-container {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.footer-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-discription {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
